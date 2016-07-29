@@ -1,0 +1,20 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+ro.allow.mock.location=0
+ro.debuggable=1
+ro.zygote=zygote32
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+debug.atrace.tags.enableflags=0
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=vendredi 29 juillet 2016, 11:27:27 (UTC+0200)
+ro.bootimage.build.date.utc=1469784447
+ro.bootimage.build.fingerprint=samsung/slim_jflte/jflte:6.0.1/MOB30R/b1022e8315:userdebug/test-keys
+persist.sys.usb.config=adb
